@@ -25,7 +25,7 @@ while start != "":
     if start:
         start = int(start)
     
-        finish = int(input("Finish"))
+        finish = int(input("Finish: "))
     
         print("word[", start, ":", finish, "] is", end=" ")
         print(word[start:finish])
