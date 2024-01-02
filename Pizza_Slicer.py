@@ -18,13 +18,16 @@ print(
 
 print("Enter the beginning and ending index for your slice of 'pizza'.")
 print("Press the enter key at 'Start' to exit.")
-
+start = None
 while start != "":
-    start = int(start)
+    start = (input("\nStart: "))
     
-    finish = int(input("Finish"))
+    if start:
+        start = int(start)
     
-    print("word[", start, ":", finish, "] is", end=" ")
-    print(word[start:finish])
+        finish = int(input("Finish"))
+    
+        print("word[", start, ":", finish, "] is", end=" ")
+        print(word[start:finish])
     
 input("\n\nPress the enter key to exit.")
