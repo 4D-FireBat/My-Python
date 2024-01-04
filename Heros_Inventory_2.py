@@ -23,3 +23,11 @@ index = int(input("\nEnter the index number for an item in inventory: "))
 print("At index", index, "is", inventory[index])
 
 input("\nPress the enter key to continue.")
+
+# display a slice
+start = int(input("\nEnter the index number to begin a slice: "))
+finish = int(input("Enter the index number to end the slice: "))
+print("inventory[", start, ":", finish, "] is ", end=" ")
+print(inventory[start:finish])
+
+input("\n\nPress the enter key to continue.")
