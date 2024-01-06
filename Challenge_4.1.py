@@ -15,7 +15,12 @@ input("\n\nPress the enter key to continue...")
 
 # Ask the user for the parameters of the program.
 
-start = int(input("\nPlease enter the number that you would me to start at."))
-end = int(input("\nEnter the number you would like for me to stop counting at."))
-denom = int(input("\nCounting by?:"))
+start = int(input("\nPlease enter the number that you would me to start at: "))
+end = int(input("\nEnter the number you would like for me to stop counting at: "))
+denom = int(input("\nCounting by?: "))
+
+for i in range(start, end, denom):
+    print(i, end=" ")
+    
+input("\n\nPress the enter key to exit.")
 
