@@ -11,7 +11,7 @@ print(
     """
 )
 
-input("\n\nPress the enter key to continue..."
+input("\n\nPress the enter key to continue...")
 
 # Ask the user for the parameters of the program.
 
