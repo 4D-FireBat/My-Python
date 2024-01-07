@@ -5,13 +5,8 @@
 
 message = input("Please enter a message: ")
 
-print("\nI will now reverse your message.")
+print("\nI will now reverse your message.\n")
 
-high = len(message)
-low = -len(message)
+print(message[::-1])
 
-newmessage = message[high,low]
-
-print(message[high:0])
-
-input("\n\nPress the enter key to exit.")
+input("\nPress the enter key to exit.")
